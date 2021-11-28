@@ -7,7 +7,7 @@ https://github.com/weewx/weewx/wiki/crt
 sudo pip3 install pillow
 # install dropbox 
 sudo pip install dropbox
-
+# How to run
 I also create an empty txt file (meteo.txt) to write the data i want
 
 I named the script meteodata.py and i use this command on crontab to run it over 2 minutes
