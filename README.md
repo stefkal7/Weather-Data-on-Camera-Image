@@ -5,7 +5,7 @@ for users of weewx weather monitoring programm. I create a python script that di
 https://github.com/weewx/weewx/wiki/crt
 # Install python pillow
 sudo pip3 install pillow
-# install dropbox 
+# Install dropbox 
 sudo pip install dropbox
 # How to run
 I also create an empty txt file (meteo.txt) to write the data i want
