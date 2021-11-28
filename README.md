@@ -3,10 +3,11 @@ Displays Weather Data from Weewx to ip  Camera image
 For users of weewx weather monitoring programm i create a python script that displays weather data to a camera image and send the image to ftp or dropbox and i run it on crontab every 2 minutes
 Install cumulus realtime from https://github.com/weewx/weewx/wiki/crt
 
-Install python pillow
+# Install python pillow
 sudo pip3 install pillow
-install dropbox 
+# install dropbox 
 sudo pip install dropbox
+
 I also create an empty txt file (meteo.txt) to write the data i want
 
 I named the script meteodata.py and i use this command on crontab to run it over 2 minutes
@@ -16,12 +17,19 @@ I named the script meteodata.py and i use this command on crontab to run it over
 I am not good in Python but this worked for me ... Just replace the necessary fields with your own
 
 #!/usr/bin/python3
+
 import sys
+
 import os
+
 import subprocess
+
 from PIL import Image, ImageDraw, ImageFont
+
 import dropbox
+
 import ftplib
+
 from ftplib import FTP
 
 meteo = open('/home/weewx/realtime.txt').read()
