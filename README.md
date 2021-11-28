@@ -37,9 +37,9 @@ text=open('/home/pi/meteo.txt').read()
 image=Image.open('/home/pi/grab.jpg')
 font = ImageFont.truetype("/usr/share/fonts/gentium-basic/GenBkBasR.ttf",34)
 draw=ImageDraw.Draw(image)
-## draw text
+##draw text
 draw.text((10,10), text=text, font=font, fill=(270,280,0))
-## save file
+##save file
 image.save('/home/pi/image.jpg')
 #send to Drpbox
 app_key = 'your app_key'
