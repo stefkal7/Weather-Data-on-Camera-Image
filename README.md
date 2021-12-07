@@ -8,11 +8,11 @@ sudo pip3 install pillow
 # Install dropbox 
 sudo pip install dropbox
 # How to run
-I also create an empty txt file (meteo.txt) to write the data i want
+Because realtime.txt file has al lot of info(data) i created an empty txt file (I named it 'meteo.txt') to write the data i want
 
 I named the script meteodata.py and i use this command on crontab to run it over 2 minutes
 
 /2 * * * * python3 /home/pi/Desktop/meteodata.py >/dev/null 2>&1
 
-I am not good in Python but this worked for me ... Just open the file meteodata.py.txt to see the code and replace the necessary fields with your own
+I am not good in Python but this worked for me ... Just open the file meteodata.py.txt to see the code and replace the necessary fields with your own(rtsp stream may be different to models of ip cameras and check and replace  the paths of files realtime.txt , meteo.txt etc)
 
