@@ -16,3 +16,4 @@ I named the script meteodata.py and i use this command on crontab to run it over
 
 I am not good in Python but this worked for me ... Just open the file meteodata.py.txt to see the code and replace the necessary fields with your own(rtsp stream may be different to models of ip cameras and check and replace  the paths of files realtime.txt , meteo.txt etc)
 
+Check my page to see the result https://tagarades-weather.epizy.com
