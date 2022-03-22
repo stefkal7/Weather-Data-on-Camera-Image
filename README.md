@@ -1,6 +1,6 @@
 # Weather-Data-on-Camera-Image
 Displays Weather Data to a Camera image
-for users of weewx weather monitoring programm. I create a python script that capture an image from rtsp stream of an Ip  camera then draw the weather data and send the image to ftp or dropbox and i run it on crontab every 2 minutes
+for users of weewx weather monitoring programm. I create a python script that capture an image from rtsp stream of an Ip  camera then draws the weather data and send the image to ftp or dropbox and i run it on crontab every 2 minutes
 # Install cumulus realtime 
 https://github.com/weewx/weewx/wiki/crt
 # Install python pillow
