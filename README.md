@@ -14,6 +14,8 @@ I named the script meteodata.py and i use this command on crontab to run it over
 
 /2 * * * * python3 /home/pi/Desktop/meteodata.py >/dev/null 2>&1
 
-I am not good in Python but this worked for me ... Just open the file meteodata.py.txt to see the code and replace the necessary fields with your own(rtsp stream may be different to models of ip cameras and check and replace  the paths of files realtime.txt , meteo.txt etc)
+I am not good in Python but this worked for me ... Just open the file meteodata.py to see the code and replace the necessary fields with your own(rtsp stream may be different to models of ip cameras and check and replace  the paths of files realtime.txt , meteo.txt etc)
+
+Also if you want a backround ovelay check meteodata1.py that draws a blue (in my case) backround on text
 
 Check my page to see the result https://tagarades-weather.epizy.com
