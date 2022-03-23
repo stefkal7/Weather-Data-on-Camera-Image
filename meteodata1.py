@@ -42,7 +42,7 @@ upload_file(file_from,file_to)
 filename = "image.jpg"
 ftp = FTP("your_ftp.com")
 ftp.login("user", "password")
-ftp.cwd("/httpdocs/cam/tagarades")
+ftp.cwd("/your_ftp_folder")
 myfile = open('/home/pi/grab.jpg', 'rb') 
 ftp.storbinary('STOR '+ filename, myfile)
 ftp.quit()
