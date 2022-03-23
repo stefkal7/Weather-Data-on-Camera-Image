@@ -28,11 +28,11 @@ draw.text((10,2), text=text, font=font, fill=(255,255,255, 255))
 image.save('/home/pi/image.jpg')
 #os.chmod('/home/pi/image.jpg', 777)
 #send file to Dropbox
-app_key = 'ijwrmofe2ic9iea'
-app_secret = '4g34bunmvgnx7ed'
-access_token = 'flYfUTH48TwAAAAAAAAAAXcNdvPHzd7-s-ZauJ6M6nONe7r98d1-kZLrS3p4olek'
+app_key = 'your apikey'
+app_secret = 'your secret'
+access_token = 'yoyr access'
 file_from = '/home/pi/image.jpg'  
-file_to = '/Webcam Roofeye/image.jpg'      
+file_to = '/yours'      
 def upload_file(file_from, file_to):
     dbx = dropbox.Dropbox(access_token)
     f = open(file_from, 'rb')
@@ -40,8 +40,8 @@ def upload_file(file_from, file_to):
 upload_file(file_from,file_to)
 #send image ftp to Northmeteo
 filename = "image.jpg"
-ftp = FTP("northmeteo.gr")
-ftp.login("nick2k4", "?Hpi8y08")
+ftp = FTP("your_ftp.com")
+ftp.login("user", "password")
 ftp.cwd("/httpdocs/cam/tagarades")
 myfile = open('/home/pi/grab.jpg', 'rb') 
 ftp.storbinary('STOR '+ filename, myfile)
