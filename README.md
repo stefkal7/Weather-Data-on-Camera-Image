@@ -8,7 +8,7 @@ sudo pip3 install pillow
 # Install dropbox 
 sudo pip install dropbox
 # How to run
-Because realtime.txt file has al lot of info(data) i created an empty txt file (I named it 'meteo.txt') to write the data i want
+Weex Cumulus realtime creates a file in weewx folder named realtime.txt and  has al lot of info(values) , so i created an empty txt file (I named it 'meteo.txt') to write the data i want according to my python code.
 
 I named the script meteodata.py and i use this command on crontab to run it over 2 minutes
 
