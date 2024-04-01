@@ -18,4 +18,4 @@ I am not good in Python but this worked for me ... Just open the file meteodata.
 
 Also if you want a backround ovelay check meteodata1.py that draws a blue (in my case) backround on text.. (see meteodata1.jpg)
 
-Check my page to see the result https://tagarades-weather.epizy.com
+Check my page to see the result https://northmeteo.gr/weather_stations/tagarades/weewx/
